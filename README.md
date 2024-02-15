@@ -18,21 +18,19 @@ by introducing novel computational and empirical methodologies for Instagram mar
 
 
 ## Dataset
-This research constructed a new dataset to guarantee the accuracy of popularity predictions and conduct thorough post analysis within a specific domain. 
-Focusing on the "café and bakery" domain, it exclusively targeted Korean influencer accounts that specialize in reviewing cafés and bakeries. 
-The accounts selected were "nano influencers" or above, each boasting over 1,000 followers.
+This research built a new dataset To ensure the accuracy of popularity prediction and facilitate thorough post-analysis, data collection was meticulously conducted within a specific domain.
+Focusing on the "café and bakery" domain, it specifically targets accounts of influencers specialized in reviewing cafés and bakeries.
+Only Korean accounts were included in the study, and due to the domain's specificity, accounts of ``nano influencers'' and above were selected, all of whom have over 1,000 followers.
 
-Data collection spanned approximately two months, from early July to the end of August 2023, 
-incorporating 33 accounts into the process and resulting in the accumulation of metadata for each account and 12,563 posts. 
-The collected data ranged in post dates from September 2016 to July 2023, including information such as the number of followers for each account, 
-the first photo of each post, post content, the date and time of each post, and the number of likes each post received.
+The posted dates of the collected data range from September 2016 to July 2023. 
+The collected data encompassed various types of information, 
+including the number of followers of each account, the first photo of each post, the content of each post, the date and time of each post, and the number of likes garnered by each post.
+Following the initial collection of raw influencer posts, several steps were undertaken to further refine and process these posts.
 
-The data preprocessing phase involved stabilizing the number of likes by excluding the top 2.5% and bottom 2.5% of posts 
-based on the difference between the data collection date and the original post date. This aimed to remove the initial and most recent posts from the accounts. 
-Additionally, to independently assess the impact of posts and hashtags, hashtags were extracted from post captions, 
-creating two separate features: post captions without hashtags and their features. Any data missing these features was eliminated. 
-The third step was a text-cleaning process on the post-caption data, which included removing punctuation and numbers, 
-using regular expressions to replace all characters except Korean and English with spaces, eliminating single Korean or English alphabet characters and multiple spaces, 
-and converting English uppercase letters to lowercase to ensure text consistency.
+The initial step in our data preprocessing involved stabilizing the number of likes by excluding the top 2.5\% and bottom 2.5\% of posts, totaling 5\%, 
+based on the difference between the date the data was collected and the date the post was originally posted. 
+This step aimed to eliminate the initial and most recent posts from the accounts. 
+Second, to independently assess the influence of posts and hashtags, we extracted hashtags from the post captions, creating two distinct features: post captions without hashtags and their features. Any data lacking either of these features was removed.
+Third, we conducted a text-cleaning process on the post-caption data. 
 
-After the preprocessing stage, the dataset was further refined to ensure its suitability for analysis, ultimately resulting in a final dataset comprising 8,765 posts.
+Following the preprocessing stage, the dataset underwent further refinement to ensure its suitability for analysis, resulting in a final dataset comprising 8,765 posts.
