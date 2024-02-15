@@ -13,6 +13,7 @@ This research furnishes valuable insights, particularly for small business owner
 by introducing novel computational and empirical methodologies for Instagram marketing strategy and post popularity prediction, thereby enhancing the comprehension of social media marketing dynamics.
 
 ## Overview of our framework
+<img width="100%" src="https://github.com/dxlabskku/Instagram-Popularity/assets/97144805/971242d7-8f57-4eec-9896-f7570abaa3be"/>
 
 
 
