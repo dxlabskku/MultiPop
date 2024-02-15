@@ -21,7 +21,7 @@ by introducing novel computational and empirical methodologies for Instagram mar
 ## Dataset
 This research built a new dataset To ensure the accuracy of popularity prediction and facilitate thorough post-analysis, data collection was meticulously conducted within a specific domain.
 Focusing on the "café and bakery" domain, it specifically targets accounts of influencers specialized in reviewing cafés and bakeries.
-Only Korean accounts were included in the study, and due to the domain's specificity, accounts of ``nano influencers'' and above were selected, all of whom have over 1,000 followers.
+Only Korean accounts were included in the study, and due to the domain's specificity, accounts of "nano influencers" and above were selected, all of whom have over 1,000 followers.
 
 The posted dates of the collected data range from September 2016 to July 2023. 
 The collected data encompassed various types of information, 
