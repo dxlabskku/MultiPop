@@ -35,3 +35,5 @@ Second, to independently assess the influence of posts and hashtags, we extracte
 Third, we conducted a text-cleaning process on the post-caption data. 
 
 Following the preprocessing stage, the dataset underwent further refinement to ensure its suitability for analysis, resulting in a final dataset comprising 8,765 posts.
+
+The sample data can be found in the 'data' folder. To request access to the full dataset, please reach out to us through the contact us directly via email with your request details.
