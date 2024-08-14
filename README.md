@@ -10,7 +10,6 @@ Social media has entrenched itself as an indispensable marketing tool. We introd
 
 
 
-
 ## Dataset
 This research built a new dataset To ensure the accuracy of popularity prediction and facilitate thorough post-analysis, data collection was meticulously conducted within a specific domain.
 Focusing on the "café and bakery" domain, it specifically targets accounts of influencers specialized in reviewing cafés and bakeries.
