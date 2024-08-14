@@ -6,7 +6,7 @@ This repository is to supplement the paper "Multi-Pop: Enhancing User Engagement
 Social media has entrenched itself as an indispensable marketing tool. We introduce a quantitative approach to predicting the popularity of social media posts within the café and bakery sector. Employing Multi-Pop, a multimodal popularity prediction model that harnesses both images and text from post content, it utilizes the features of posts that significantly influence their popularity on one of the most widely used platforms, Instagram. By focusing solely on post-content features and excluding user information, we analyzed 8,765 Instagram posts from the cafe and bakery domain, revealing that our model attains a superior accuracy rate of 82.0% compared to existing popularity prediction methods. Furthermore, the study identifies hashtags and post captions as exerting a greater impact on post popularity than images. This research furnishes valuable insights, particularly for small business owners and individual entrepreneurs, by introducing novel computational and empirical methodologies for Instagram marketing strategy and post popularity prediction, thereby enhancing the comprehension of social media marketing dynamics.
 
 ## Overview of our framework
-<img width="80%" src="https://github.com/dxlabskku/Instagram-Popularity/assets/97144805/971242d7-8f57-4eec-9896-f7570abaa3be"/>
+![model_structure (1)](https://github.com/user-attachments/assets/9252bd5c-b9ed-4595-a0fc-cdafea0fd84b)
 
 
 
